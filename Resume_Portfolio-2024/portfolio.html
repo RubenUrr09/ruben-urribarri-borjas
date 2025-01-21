@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About Section</title>
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://kit.fontawesome.com/c32adfdcda.js" crossorigin="anonymous"></script>
+<style>
+  .about-section {
+    text-align: center;
+    padding: 50px 0;
+  }
+  .about-section h2 {
+    font-size: 5.0rem;
+    margin-bottom: 20px;
+  }
+  .about-section img {
+    width: 250px; /* Adjust the size as needed */
+    height: 250px;
+    border-radius: 50%; /* Makes the image round */
+    margin-bottom: 20px;
+  }
+  .about-section p {
+    color: #555;
+  }
+
+  /* Additional CSS for Projects Section */
+.projects-section h2 {
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.card {
+  box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Adds a subtle shadow around the card */
+}
+.card-img-top {
+  max-height: 600px; /* Adjust this value to fit the image properly in the card */
+  object-fit: cover; /* This makes sure the image covers the area properly */
+}
+.card-body {
+  padding: 15px;
+}
+.card-title {
+  font-size: 1.5rem;
+}
+.card-text {
+  margin-bottom: 15px;
+}
+
+/* Additional CSS for Skills Section */
+.skills-section h2 {
+  margin-bottom: 20px;
+  font-size: 2.5rem;
+}
+.skills-section .card {
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.skills-section .card-img-top {
+  padding: 50px; /* Add padding around your images if needed */
+  background-color: #f8f9fa; /* Adjust the background color if your images have transparent areas */
+  height: 200px; /* Fixed height for consistency */
+  object-fit: contain; /* This will make sure the image is scaled properly within the container */
+}
+.skills-section .card-body {
+  padding: 15px;
+}
+.skills-section .card-title {
+  font-size: 1.25rem;
+  margin-bottom: 15px;
+}
+.skills-section .btn-outline-primary {
+  color: maroon;
+  border-color: white;
+}
+.skills-section .btn-outline-primary:hover {
+  color: #fff;
+  background-color: maroon;
+  border-color: maroon;
+}
+
+/* Additional CSS for Contact Section */
+.contact-section {
+  padding: 20px 0;
+}
+.contact-section h2 {
+  font-size: 3.25rem;
+  margin-bottom: 40px;
+}
+.contact-section p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+.social-icon {
+  width: 100px; /* Size of your icons */
+  margin-bottom: 10px;
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+}
+/* Hover effect for icons */
+.social-icon:hover {
+  opacity: 0.7;
+}
+/* Style for links in the Contact section */
+.contact-section a {
+  color: #fff;
+  text-decoration: none; /* Removes underline from links */
+  display: inline-block; /* Allows for margin on the bottom */
+  margin-bottom: 20px;
+}
+.contact-section a:hover {
+  color: #ddd; /* Color when hovering over the link */
+}
+
+/* CSS for Sticky Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(100,100,100); /* Adds a shadow for depth */
+}
+
+/* Ensure padding is added to body to avoid content being hidden behind the navbar */
+body { 
+  padding-top: 56px; /* Adjust this value based on the height of your navbar */
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 80px;
+}
+
+/* Style for navigation bar links */
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #f8f9fa; /* Slightly lighter white when hovering over links */
+}
+
+a:hover {
+      text-decoration: underline; /* Underline when hovered */
+    }
+
+.nav-link {
+      color: white; /* Ensure text color is white */
+      text-decoration: none; /* Remove underline by default */
+    }
+
+    /* Hover state */
+.nav-link:hover {
+      text-decoration: underline; /* Underline when hovered */
+    }
+
+  .nav-item img {
+  height: 30px; /* Adjust the size of the logo */
+  width: auto; /* Maintain aspect ratio */
+  transform: translateY(-17%);
+    }
+
+/* Media query for responsive navbar collapsing */
+@media (max-width: 992px) {
+  .navbar-collapse {
+    background-color: #343a40; /* Same as navbar color for seamless look */
+  }
+}
+
+
+</style>
+
+</head>
+<body>
+
+<section id='about' class="about-section" style="background-image: url('portfolio_images/about/tamu-campus-aerial-academic-building-sunset1.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));; background-size: cover; background-position: center; color: white; padding: 50px 20px; background-blend-mode: darken;">
+  <div class="container" style="outline-color: white; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+    <h2>About Me</h2>
+    <img src="portfolio_images/about/D23CF033-07EB-450C-91F1-1E983358A935.jpeg" style="opacity: 1; outline: 5px solid white;" alt="About Me">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <img src="portfolio_images/about/Texas_AM_University_seal.png" style= "background-color: white;" alt="About Me">
+    <p style="font-size: 34px; font-weight: bold; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);" >
+      Ruben Urribarri Borjas
+    </p>
+    <p style="font-size: 30px;color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);  ">
+      Undergraduate Applied Mathematics major at Texas A&M University - College Station
+    </p>
+    <p style="font-size: 24px; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); ">
+      Double Minor in Physics and Computer Science
+    </p>
+    <p style="font-size: 24px; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+      Concentration in Data Science and Machine Learning
+
+    </p>
+    <p style="font-size: 24px; font-weight: bold; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+      
+      Professional Summary:
+    </p>
+    <p style="font-size: 20px; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+      My name is Ruben Urribarri, and I am an undergraduate student passionate with applied mathematics, computer science, and physics. 
+
+In this portfolio, I have completed projects and certifications that demonstrate my hard-work outside of the classrom, as well as my passion for Data Science.
+    
+I also play sports and volunteer in my free time to help the community.
+
+My career goals are to work in the industry as a Data Scientist / Data Analyst / Machine Learning Engineer
+    </p>
+    <p style="font-size: 24px; font-weight: bold; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+      
+      Walkthrough my Portfolio:
+    </p>
+    <p style="font-size: 20px; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+    
+In this website you can see: Courses I have taken at Texas A&M (Relevant Courses), 
+Projects, Volunteering experience, things I do outside of the classroom (Extracurriculars),
+Certificates, my technical skills, and my contacts (Email, phone number, etc)
+
+    </p>  
+    <p style="font-size: 20px; color: white;  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+    Enjoy, and make sure to contact me whenever you need!
+  </p>  
+  </div>
+</section>
+
+
+<!-- Courses Section -->
+<section id="courses" class="skills" style="background-image: url('portfolio_images/about/classroombg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));; background-position: center; color: white; padding: 50px 20px; background-blend-mode: darken;">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 40px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Relevant Courses </h2>
+    <div class="row">
+      <!-- course 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/real_analysis.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 1">
+          <div class="card-body" style="background-color: white;">
+            <h5 class="card-title" style="color: black;"> MATH 409 - Analysis on the Real Number Line</h5>
+            <p class="card-text"></p> </p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/math/" class="btn btn-outline-primary" style ="background-color: maroon; color: white;"> TAMU description</a>
+            
+          </div>
+        </div>
+      </div>
+      <!-- course 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/math_prob.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;"> MATH 411 - Mathematical Probability</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/math/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;"> TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+       <!-- course 3 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/num_met.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;"> MATH 417 - Numerical Methods</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/math/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;"> TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- course 4 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/lin_alg.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> MATH 323 - Linear Algebra</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/math/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- course 5 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/data_struct_alg.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> CSCE 221 -  Data Structures and Algorithms</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+       <!-- course 6 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/newt_mech.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">PHYS 206 - Newtonian Mechanics</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/phys/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- course 7 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/elc_mag.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> PHYS 207 - Electricity and Magnetism</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/phys/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+      <!-- course 8 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/dif_eq.jpg" class="card-img-top" style="width: 100%; height: 460px; object-fit: cover;"alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> MATH 308 - Differential Equations</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/math/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+       <!-- course 9 -->
+       <div class="col-md-4 mb-4">
+        <div class="card" style="width: 400px; height: 660px;">
+          <img src="portfolio_images/projects/prog_design_cocpt.jpg" class="card-img-top" style="width: 400px; height: 520px; object-fit: cover;"alt="Project 2">
+          <div class="card-body" style="background-color: white;">
+            <h5 class="card-title"style="color: black;"> CSCE 120 - Program Design and Concepts</h5>
+            <p class="card-text"></p>
+            <a href="https://catalog.tamu.edu/undergraduate/course-descriptions/csce/" class="btn btn-outline-primary"style ="background-color: maroon; color: white;">TAMU description</a>
+           
+          </div>
+        </div>
+      </div>
+  </div>
+  
+</section>
+
+
+<section id="projects" class="projects-section bg-light" style="background-image: url('portfolio_images/about/mlbackground.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));; background-size: cover; background-position: center; background-repeat: no-repeat; image-rendering: auto;  color: white; padding: 20px 20px; background-blend-mode: darken;" id="projects">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 50px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Projects</h2>
+    <div class="row">
+      <!-- Project 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/simple chatbot AI logo.jpg" style="width: 100%; height: 300px; object-fit: cover;"class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;"> Chatbot AI (In-Progress)</h5>
+            <p class="card-text"> </p>
+            <a href="#" class="btn btn-primary" style ="background-color: maroon; color: white;">Website</a>
+            <a href="#" class="btn btn-secondary">Contribution</a>
+          </div>
+        </div>
+      </div>
+       <!-- Project 2 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/euro2024.png" class="card-img-top" style="width: 100%; height: 300px; object-fit: cover;"alt="Project 2" style= "height: 400px;">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;"> EURO 2024 Talent data analysis</h5>
+            <p class="card-text" style="color: black;"> Description: Analysis of U23 EURO 2024 professional soccer players.
+                Performed data cleaning techniques using Pandas to handle missing values and to focus on the relevant data to analyze the KPIs of the young players. 
+
+              Also provided detail-oriented data storytelling by analyzing the players' scatterplots. Created data visualizations using matplotlib and Seaborn
+            </p>
+            <a href="https://github.com/RubenUrr09/Euro2024_talent_analysis" class="btn btn-primary" style ="background-color: maroon; color: white;"> Github </a>
+            <a href="#" class="btn btn-secondary"> Dataset</a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Project 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/acc.jpg" class="card-img-top" style="width: 100%; height: 300px; object-fit: cover;" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;"> AgTern App (Aggie Coding Club)</h5>
+            <p class="card-text" style="color: black;"> Contributed to the AgTern app that is still developing</p>
+            <a href="#" class="btn btn-primary" style ="background-color: maroon; color: white;"> Github</a>
+          </div>
+        </div>
+      </div>
+     <!-- Project 2 -->
+     <div class="col-md-4 mb-4">
+      <div class="card">
+        <img src="portfolio_images/projects/premier_league.jpg" class="card-img-top" style="width: 100%; height: 300px; object-fit: cover;"alt="Project 2" style= "height: 400px;">
+        <div class="card-body">
+          <h5 class="card-title" style="color: black;"> Premier League Gradient Descent</h5>
+          <p class="card-text" style="color: black"> Description: Analysis of Premier League players using Python and machine learning algorithms. Performed data cleaning techniques using pandas to handle missing values and to focus on the relevant data. Implemented the gradient descent algorithm to predict stat variables of professional soccer players such as expected wins and clean sheets
+
+            Also, created data visualizations using matplotlib to generate scatterplots with linear regression to determine data correlation </p>
+          <a href="https://github.com/RubenUrr09/Premier-League-Gradient-Descent" class="btn btn-primary" style ="background-color: maroon; color: white;"> Github </a>
+          <a href="#" class="btn btn-secondary"> Dataset</a>
+        </div>
+      </div>
+    </div>
+      
+  </div>
+</section>
+
+
+<!-- Volunteering Section -->
+
+<section id="volunteering" class="projects-section"style="background-image: url('portfolio_images/about/vol_extracurr_bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));; background-size: cover; background-position: center; background-repeat: no-repeat; image-rendering: auto;  color: white; padding: 20px 20px; background-blend-mode: darken;" id="volunteering">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 40px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Volunteering Experience</h2>
+    <div class="row">
+      <!-- volunteering 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/Family-Hope.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;">Family Hope</h5>
+            <p class="card-text" style="color: black;">Helped thousands of families get their food donations</p>
+            <a href="https://www.familyhopefulshear.org/about-us" class="btn btn-primary" style ="background-color: maroon; color: white;">Website</a>
+            <a href="pdf/Volunteering hours (1).pdf" class="btn btn-secondary">Contribution</a>
+          </div>
+        </div>
+      </div>
+      <!-- volunteering 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/tamu-student-research-week-presentation.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">Student Research Week</h5>
+            <p class="card-text"style="color: black;">Volunteered at Texas A&M University for Research Week</p>
+            <a href="https://srw.tamu.edu/?_gl=1*tt5vht*_gcl_au*MTM0ODAyOTM4Mi4xNzMyNTcxMjI0*_ga*MTk5MDMyNjcxMS4xNzMwMjY4MDY3*_ga_SJ5GMN0ZQL*MTczMjU3MTIyNS4xLjEuMTczMjU3MTQ1NS42MC4wLjA.*_ga_6Z244NFEFP*MTczMjU3MTI3NC4xLjEuMTczMjU3MTQ1NS42MC4wLjA." class = "btn btn-primary" style ="background-color: maroon; color: white;"> Website</a>
+          </div>
+        </div>
+      </div>
+      
+      
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="Extracurriculars" style="background-image: url('portfolio_images/about/extracurr_bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));; background-size: cover; background-position: center; background-repeat: no-repeat; image-rendering: auto;  color: white; padding: 20px 20px; background-blend-mode: darken;" id="Extracurriculars">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 40px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Extracurricular activities</h2>
+    <div class="row">
+      <!-- extracurricular 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card" style="height: 303px">
+          <img src="portfolio_images/projects/intramural_soccer.jpg" class="card-img-top" style="height: 230px" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;">Intramural Soccer</h5>
+            
+          </div>
+        </div>
+      </div>
+      <!-- extracurriclar 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/tennis.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;">Tennis</h5>
+           
+          </div>
+        </div>
+      </div>
+      <!-- extracurricular 3 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/pin_pong.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;">Ping Pong</h5>
+            
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<!-- Projects Section -->
+<section id="Certificates" class="projects-section" style="background-image: url('portfolio_images/about/skillsbg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));; background-size: cover; background-position: center; color: white; padding: 50px 20px; background-blend-mode: darken;" id="Certificates">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 46px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Certificates</h2>
+    <div class="row">
+      <!-- certfificate 1 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/jpchase_logo.jpg" class="card-img-top" alt="Project 1">
+          <div class="card-body">
+            <h5 class="card-title" style="color: black;">Forage - Software Engineering, J.P. Morgan Chase & Co.</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style ="background-color: rgb(0, 119, 255); color: white;">Website</a>
+            <a href="pdf/forage_jpchase_certificate.pdf" class="btn btn-secondary">Certificate</a>
+          </div>
+        </div>
+      </div>
+      <!-- certiicate 2 -->
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/bcg_data_science.png" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">Forage - Data Science, BCGX</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style ="background-color: rgb(0, 119, 255); color: white;">Website</a>
+          </div>
+        </div>
+      </div>
+
+       <!-- certiicate 3 -->
+       <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/IBMpython.jpg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">Coursera - Python for Data Science, AI & Development, IBM</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style ="background-color: rgb(0, 119, 255); color: white;">Website</a>
+            <a href="pdf/ibm_python_intro_course_cert.pdf" class="btn btn-secondary">Certificate</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="portfolio_images/projects/sql-for-data-science.jpeg" class="card-img-top" alt="Project 2">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">Coursera - SQL For Data Science, UC Davis</h5>
+            <p class="card-text"></p>
+            <a href="#" class="btn btn-primary" style ="background-color: rgb(0, 119, 255); color: white;">Website</a>
+            <a href="pdf/sql_ucdavis_certificate.pdf" class="btn btn-secondary">Certificate</a>
+          </div>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+
+
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section" style="background-image: url('portfolio_images/about/157787-abstract-royal-blue-background-design.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));; background-size: cover; background-position: center; color: white; padding: 50px 20px; background-blend-mode: darken;" id="skills">
+  <div class="container">
+    <h2 class="text-center" style="font-size: 46px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);"> Skills</p> </h2>
+    <div class="row">
+      <!-- Skill 1 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="portfolio_images/skills/jupyter.jpg" style=" width: 100% ; height: 250px; padding: 20px; background-position: center; ">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> Jupyter Notebook</h5>
+            <p class="card-text"style="color: black;"> Proficient using Jupyter Notebook for data analysis</p>
+            <a href="https://www.coursera.org/learn/python-for-applied-data-science-ai" class="btn btn-outline-primary">Link to course</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 2 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card" style=" width: 300px ; height: 100%;">
+          <img src="portfolio_images/skills/pythonlogo.png" style=" width: 300px ; height: 250px; padding: 20px; transform: translateX(5%); background-position: center;">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">Data Extraction and Visualization</h5>
+            <p class="card-text"style="color: black;"> Able to implement using libraries from Python such as Numpy, Pandas, Seasborn to visualize data</p>
+            <a href="https://www.coursera.org/learn/python-for-applied-data-science-ai" class="btn btn-outline-primary">Link to course</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- Skill 3 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="portfolio_images/skills/cprogramming.jpg"  style="width: 250px; height: 200px;">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">C++</h5>
+            <p class="card-text"style="color: black;">Proficient programming in C language</p>
+            <a href="#" class="btn btn-outline-primary">Link to course </a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card">
+          <img src="portfolio_images/skills/rstudio_logo.png" style=" width: 450px ; height: 250px; transform: translateX(-23%); background-position: center;">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;">R Studio</h5>
+            <p class="card-text"style="color: black;"> Comfrotable using R studio to analyze data</p>
+            <a href="#" class="btn btn-outline-primary">Link to course</a>
+          </div>
+        </div>
+      </div>
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card" style="width: 300px;">
+          <img src="portfolio_images/skills/sql_logo.png" style=" width: 300px ; height: 250px; padding: 20px; background-position: center;">
+          <div class="card-body">
+            <h5 class="card-title"style="color: black;"> SQL</h5>
+            <p class="card-text"style="color: black;"> Comfortable using SQL for databases</p>
+            <a href="https://www.coursera.org/learn/sql-for-data-science" class="btn btn-outline-primary">Link to course</a>
+          </div>
+        </div>
+      </div>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <!-- Skill 4 -->
+      <div class="col-lg-3 col-md-6 mb-4">
+        <div class="card" style="width: 300px;">
+          <img src="portfolio_images/skills/ml.png" style=" width: 300px ; height: 250px; padding: 20px; background-position: center;">
+          <div class="card-body" >
+            <h5 class="card-title"style="color: black;">Machine Learning</h5>
+            <p class="card-text"style="color: black;"> Proficient using mathematics for machine learning and implementing algorithms</p>
+            <a href="#" class="btn btn-outline-primary">Link to course</a>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+  </div>
+ 
+</section>
+
+<!-- Contact Me Section -->
+<section id="contact" class="contact-section text-left text-white" style="background-color: rgb(56, 48, 48); padding: 20px; background-image: url('portfolio_images/about/contactme_bg.jpg'), linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));; background-size: cover; background-position: center; color: white; padding: 50px 20px; background-blend-mode: darken;">
+  <div class="container" style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: flex-start;">
+    
+    <!-- Left Column: Contact Information -->
+    <div style="flex: 1; margin-right: 20px; min-width: 300px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">
+      <h2>Contact Me</h2>
+      <div class="row">
+        <div class="container">
+          <p style="font-size: 18px;"><i class="fas fa-envelope"></i> <b>Personal email:</b> urribarriruben09@gmail.com</p>
+          <p style="font-size: 18px;"><i class="fas fa-phone"></i> <b>Phone number (mobile):</b> +1 (281)-902-9955</p>
+          <p style="font-size: 18px;"><i class="fas fa-envelope"></i> <b>TAMU email:</b> rubenurribarri3@tamu.edu</p>
+          <p style="font-size: 18px; font-weight: bold;"><i class="fas fa-envelope"></i> <a href="pdf/Ruben Urribarri - Resume.pdf" target="_blank">Resume/CV Link</a></p>
+        </div>
+      </div>
+      <div class="container">
+        <div>
+          <a href="https://www.linkedin.com/in/ruben-urribarri-borjas-594b4a2ab" target="_blank">
+            <img src="portfolio_icons/linkedin_bw.jpg" alt="LinkedIn" class="social-icon" style="width: 70px; height: 70px;">
+            LinkedIn
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://www.github.com/RubenUrr09" target="_blank">
+            <img src="portfolio_icons/github_bw.jpg" alt="GitHub" class="social-icon" style="width: 70px; height: 70px;">
+            GitHub
+          </a>
+          &nbsp;&nbsp;
+          <a href="https://www.instagram.com/ruben03ub/" target="_blank">
+            <img src="portfolio_icons/instagram_b_w.png" alt="Instagram" class="social-icon" style="width: 70px; height: 70px;">
+            Instagram
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right Column: Contact Form -->
+    <div style="flex: 1; min-width: 300px;">
+      <form action="https://example.com/submit" method="POST" style="display: flex; flex-direction: column; gap: 15px;">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your Name" required style="width: 100%; padding: 10px; margin-top: 5px;">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Your Email" required style="width: 100%; padding: 10px; margin-top: 5px;">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Your Message" required style="width: 100%; padding: 10px; margin-top: 5px;"></textarea>
+        </div>
+        <button type="submit" style="padding: 10px 20px; background-color: #007bff; color: white; border: none; cursor: pointer;">
+          Send Message
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+
+<!-- Sticky Navigation Bar -->
+<nav class="navbar navbar-expand-lg fixed-top" style="background-color: maroon; color: white;">
+  <div class="container">
+    <a class="nav-item" style= "font-size: 32px; color : white" href="#home">
+      <img src="portfolio_icons/house_logo_3.png" alt="Logo">
+       <b> Home </b> </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" style= "font-size: 20px;" href="#about">About</a>
+          
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style= "font-size: 20px;" href="#courses"> Courses</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" style= "font-size: 20px;" href="#projects"> Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style= "font-size: 20px;" href="#volunteering">Volunteering</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style= "font-size: 20px;" href="#Extracurriculars">Extracurriculars</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style= "font-size: 20px;" href="#Certificates">Certificates</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style= "font-size: 20px;" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link"style= "font-size: 20px;" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+</body>
+</htm
