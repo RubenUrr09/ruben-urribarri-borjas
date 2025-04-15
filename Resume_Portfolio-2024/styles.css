@@ -127,32 +127,27 @@ background-size: cover;  background-attachment: scroll; background-repeat: no-re
 
   
 .skills{
-background-attachment: fixed;  background-size: cover; background-repeat: no-repeat; background-position: center top; color: white; padding: 50px 20px; background-blend-mode: darken;
+background-size: cover;  background-attachment: scroll; background-repeat: no-repeat; background-position: center top; color: white; padding: 50px 20px; background-blend-mode: darken;
 }
-
 .skills-section{
- background-attachment: fixed;  background-size: cover; background-repeat: no-repeat; background-position: center top; color: white; padding: 50px 20px; background-blend-mode: darken;
+background-size: cover;  background-attachment: scroll; background-repeat: no-repeat; background-position: center top; color: white; padding: 50px 20px; background-blend-mode: darken;
 }
 .skills-section h2 {
-  margin-bottom: 20px;
-  font-size: 2.5rem;
-}
+  font-size: 1rem;
+      }
 .skills-section .card {
-  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-}
+ margin-bottom: 20px;
+      }
 .skills-section .card-img-top {
-  padding: 50px; 
-  background-color: #f8f9fa; 
-  height: 200px; 
-  object-fit: contain; 
-}
+ height: 200px;
+ padding: 30px;
+      }
 .skills-section .card-body {
-  padding: 15px;
-}
+  padding: 10px;
+      }
 .skills-section .card-title {
-  font-size: 1.25rem;
-  margin-bottom: 15px;
-}
+  font-size: 1.125rem;
+      }
 .skills-section .btn-outline-primary {
   color: maroon;
   border-color: white;
