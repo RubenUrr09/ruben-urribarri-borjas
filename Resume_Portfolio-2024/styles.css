@@ -132,22 +132,46 @@ background-size: cover;  background-attachment: scroll; background-repeat: no-re
 .skills-section{
 background-size: cover;  background-attachment: scroll; background-repeat: no-repeat; background-position: center top; color: white; padding: 50px 20px; background-blend-mode: darken;
 }
-.skills-section h2 {
-  font-size: 1rem;
-      }
-.skills-section .card {
- margin-bottom: 20px;
-      }
-.skills-section .card-img-top {
- height: 200px;
- padding: 30px;
-      }
-.skills-section .card-body {
-  padding: 10px;
-      }
-.skills-section .card-title {
-  font-size: 1.125rem;
-      }
+.skills .card {
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+  }
+
+  .skills .card:hover {
+    transform: translateY(-5px);
+  }
+
+  .skills .card-body {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .skills .card-title {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+  }
+
+  .skills .card-text {
+    font-size: 0.95rem;
+    color: #333;
+  }
+
+  .skills .card img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+    padding: 10px;
+    margin: 0 auto;
+    display: block;
+  }
+
+  .skills a.btn {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    padding: 6px 12px;
+  }
 .skills-section .btn-outline-primary {
   color: maroon;
   border-color: white;
