@@ -15,6 +15,13 @@ html {
   overflow-x: hidden;
 }
 
+/*move first two images a little bit to the right in mobile*/
+@media (max-width: 768px) {
+  .mobile-shift-right {
+    margin-left: 20px; /* or more depending on how far you want to move it */
+  }
+}
+
 /*Card format*/
 .card {
   border: none;
