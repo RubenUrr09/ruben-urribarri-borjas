@@ -5,12 +5,14 @@ body {
   line-height: 1.6;
   color: var(--text-dark);
   background-color: #f8f9fa;
+  overflow-x: hidden;
 }
 
 /*behavior when you scroll down*/
 html {
   scroll-behavior: smooth;
   scroll-padding-top: -50px;
+  overflow-x: hidden;
 }
 
 /*Card format*/
