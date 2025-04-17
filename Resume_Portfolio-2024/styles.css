@@ -18,7 +18,7 @@ html {
 /*move first two images a little bit to the right in mobile*/
 @media (max-width: 768px) {
   .mobile-shift-right {
-    transform: translateX(20px); /* or more depending on how far you want to move it */
+    transform: translateX(30px); /* or more depending on how far you want to move it */
   }
 }
 
